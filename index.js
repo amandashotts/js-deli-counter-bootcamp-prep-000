@@ -26,13 +26,12 @@ let numberedLines = [];
   for (var i = 0; i < line.length; i++) {
     numberedLines.push(`${i+1}. ${line[i]}`);
   } 
-
   if (line.length === 0) {
-        return `The line is currently empty.` 
-    }
+    return `The line is currently empty.` 
+  }
  else {
-  return `The line is currently: ${numberedLines.join(', ')}`
-}
+    return `The line is currently: ${numberedLines.join(', ')}`
+  }
 }
 
 /* 
